@@ -7,10 +7,8 @@ const Navbar = ()=>{
     const session_role = sessionStorage.getItem('role');
     useEffect(()=>{
         setRole(session_role);
-        },[session_role]);
-    useEffect(()=>{
         setLoaded(true);
-    },[role])
+        },[session_role]);
     
     const loadPage = ()=>{
         if(loaded){

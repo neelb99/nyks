@@ -1,8 +1,14 @@
 import React from 'react';
+import {BrowserRouter, Switch} from 'react-router-dom';
+import Navbar from './Components/Navbar';
 
 function App() {
   return (
-    <h1>NYKS</h1>
+    <BrowserRouter>
+      <Switch>
+        <Navbar />
+      </Switch>
+    </BrowserRouter>
   );
 }
 

@@ -44,6 +44,9 @@ const Navbar = ()=>{
                                 <li className="nav-item"><Link to='/employeeattendance' className="nav-link">Employee Attendance</Link> </li>
                                 <li className="nav-item"><Link to='/manageemployees' className="nav-link">Manage Employees</Link> </li>
                             </ul>
+                            <ul className="navbar-nav ml-auto">
+                                <li className="nav-item"><Link to='/logout' className="nav-link">Logout</Link></li>
+                            </ul>
                         </div>
                     </nav>
                 );

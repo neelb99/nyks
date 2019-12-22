@@ -19,10 +19,10 @@ const EmployeeAttendance = ()=>{
                     <div id="employeefilter">
                         <form className="col-10 offset-1">
                             <div className="row">
-                                <div className="col-9">
+                                <div className="col-8">
                                     <input type="text" placeholder="Employee Name" className="form-control"></input>
                                 </div>
-                                <div className="col-3">
+                                <div className="col-4">
                                     <button id="searchbutton" type="submit" className="btn btn-primary form-control">Search</button>
                                 </div>
                             </div>

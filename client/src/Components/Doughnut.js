@@ -17,7 +17,7 @@ const DoughnutChart = props=>{
 
     return(
     <div className="col-12">
-    <Doughnut data={chartData} />
+    <Doughnut data={chartData} width={1} height={1}/>
     </div>
     );
 }

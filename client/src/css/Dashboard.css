@@ -28,6 +28,8 @@
     align-items: center;
     justify-content: center;
     min-height: 70vh;
+    margin-top:50px;
+    margin-bottom: 15px;
 }
 
 .doughnutsection h3{

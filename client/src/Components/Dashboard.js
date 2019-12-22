@@ -29,11 +29,11 @@ const Dashboard = ()=>{
                 return(
                     <React.Fragment>
                         <div id="chartsdiv">
-                            <div className="col-12 col-md-6 doughnutsection">
+                            <div className="col-10 offset-1 col-md-4 offset-md-1 doughnutsection">
                                 <h3>Monthly Attendance</h3>
                                 <DoughnutChart present={90} absent={10}/>
                             </div>
-                            <div className="col-12 col-md-6 doughnutsection">
+                            <div className="col-10 offset-1 col-md-4 offset-md-2 doughnutsection">
                                 <h3>Overall Attendance</h3>
                                 <DoughnutChart absent={25} present={75}/>
                             </div>

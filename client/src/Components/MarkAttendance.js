@@ -27,7 +27,7 @@ const MarkAttendance = ()=>{
                         </p>
                     </div>
                     <div className="col-12 col-md-6" id="login">
-                        <div id="loginform" className="col-10 col-md-8 co offset-md-2 offset-1 text-center">
+                        <div id="loginform" className="col-12 col-md-8 offset-md-2 text-center">
                             <div className="jumbotron">
                                 <h2>Mark Attendance</h2>
                                 <form onSubmit={handleSubmit}>

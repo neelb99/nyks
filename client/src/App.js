@@ -5,6 +5,7 @@ import Navbar from './Components/Navbar';
 import Landing from './Components/Landing';
 import Dashboard from './Components/Dashboard';
 import MarkAttendance from './Components/MarkAttendance';
+import Logout from './Components/Logout';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Switch>
         <Route path="/" exact component={Landing}></Route>
         <Route path="/home" exact component={Dashboard}></Route>
+        <Route path="/logout" exact component={Logout}></Route>
         <Route path="/markattendance" exact component={MarkAttendance}></Route>
       </Switch>
     </BrowserRouter>

@@ -20,8 +20,11 @@ const Navbar = ()=>{
                             <span className="navbar-toggler-icon"></span>
                         </button>
                         <div className="collapse navbar-collapse" id="navbarNav">
-                            <ul className="navbar-nav">
+                            <ul className="nav navbar-nav navbar-left">
                                 <li className="nav-item"><Link to='/markattendance' className="nav-link">Mark Attendance</Link></li>
+                            </ul>
+                            <ul className="navbar-nav ml-auto">
+                                <li className="nav-item"><Link to='/logout' className="nav-link">Logout</Link></li>
                             </ul>
                         </div>
                     </nav>

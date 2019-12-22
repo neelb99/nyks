@@ -22,7 +22,6 @@ const Navbar = ()=>{
                         <div className="collapse navbar-collapse" id="navbarNav">
                             <ul className="navbar-nav">
                                 <li className="nav-item"><Link to='/markattendance' className="nav-link">Mark Attendance</Link></li>
-                                <li className="nav-item"><Link to='/viewattendance' className="nav-link">View Attendance</Link> </li>
                             </ul>
                         </div>
                     </nav>

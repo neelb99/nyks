@@ -1,0 +1,40 @@
+#dash .jumbotron{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.dashlanding{
+    min-height: 100vh;
+}
+
+.progress{
+    min-width: 60vw;
+}
+
+#chartsdiv{
+    min-height: 90vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.doughnutsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+}
+
+.doughnutsection h3{
+    margin-bottom: 25px;
+}
+
+#abovetable{
+    margin-top:30px;
+    margin-bottom:30px;
+}

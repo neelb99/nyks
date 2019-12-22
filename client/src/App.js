@@ -1,7 +1,10 @@
 import React from 'react';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './Components/Navbar';
 import Landing from './Components/Landing';
+import Dashboard from './Components/Dashboard';
+import MarkAttendance from './Components/MarkAttendance';
 
 function App() {
   return (
@@ -9,6 +12,8 @@ function App() {
       <Navbar />
       <Switch>
         <Route path="/" exact component={Landing}></Route>
+        <Route path="/home" exact component={Dashboard}></Route>
+        <Route path="/markattendance" exact component={MarkAttendance}></Route>
       </Switch>
     </BrowserRouter>
   );

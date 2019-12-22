@@ -66,7 +66,7 @@ const EmployeeAttendance = ()=>{
                             </div>
                         </form>
                     
-                        <Table striped bordered hover>
+                        <Table responsive striped bordered hover>
                             <thead>
                                 <tr>
                                     <th>Date</th>

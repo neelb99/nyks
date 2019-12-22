@@ -18,7 +18,7 @@ const ManageEmployess = ()=>{
             <div className="text-center" id="manageemployees">
                 <h1 id="manageheading">Manage Employees</h1>
                 <Link to="/addemployee"><button className="btn btn-success" id="addbutton">Add Employee</button></Link>
-                <Table striped bordered hover>
+                <Table responsive striped bordered hover>
                     <thead>
                         <tr>
                             <th>Employee</th>
@@ -29,25 +29,25 @@ const ManageEmployess = ()=>{
                     </thead>
                     <tbody>
                         <tr>
-                            <td>2nd Jan</td>
+                            <td>Abc</td>
                             <td style={{color:"green"}}>76%</td>
                             <td><button className="btn btn-info">Edit</button></td>
                             <td><button className="btn btn-danger">Delete</button></td>
                         </tr>
                         <tr>
-                            <td>3rd Jan</td>
+                            <td>Def</td>
                             <td style={{color:"red"}}>64%</td>
                             <td><button className="btn btn-info">Edit</button></td>
                             <td><button className="btn btn-danger">Delete</button></td>
                         </tr>
                         <tr>
-                            <td>4th Jan</td>
+                            <td>Xyz</td>
                             <td style={{color:"green"}}>83%</td>
                             <td><button className="btn btn-info">Edit</button></td>
                             <td><button className="btn btn-danger">Delete</button></td>
                         </tr>
                         <tr>
-                            <td>5th Jan</td>
+                            <td>Pqr</td>
                             <td style={{color:"Green"}}>90%</td>
                             <td><button className="btn btn-info">Edit</button></td>
                             <td><button className="btn btn-danger">Delete</button></td>

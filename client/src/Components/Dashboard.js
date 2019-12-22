@@ -67,7 +67,7 @@ const Dashboard = ()=>{
                                 </div>
                             </form>
                         
-                            <Table striped bordered hover>
+                            <Table responsive striped bordered hover>
                                 <thead>
                                     <tr>
                                         <th>Date</th>
@@ -100,13 +100,14 @@ const Dashboard = ()=>{
             else if(role==='manager'){
                 return (
                     <React.Fragment>
+                        <h1 id="officeheading" className="text-center">Office Data</h1>
                         <div id="chartsdiv">
                             <div className="col-10 offset-1 col-md-4 offset-md-1 doughnutsection">
-                                <h3>Month's Office Attendance</h3>
+                                <h3>Monthly Attendance</h3>
                                 <DoughnutChart present={80} absent={20}/>
                             </div>
                             <div className="col-10 offset-1 col-md-4 offset-md-2 doughnutsection">
-                                <h3>Overall Office Attendance</h3>
+                                <h3>Overall Attendance</h3>
                                 <DoughnutChart absent={35} present={65}/>
                             </div>
                         </div>
@@ -144,7 +145,7 @@ const Dashboard = ()=>{
                                 </div>
                             </form>
                         
-                            <Table striped bordered hover>
+                            <Table responsive striped bordered hover>
                                 <thead>
                                     <tr>
                                         <th>Employee</th>
